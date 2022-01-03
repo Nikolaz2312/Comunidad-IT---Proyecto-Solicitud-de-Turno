@@ -1,0 +1,36 @@
+@model List<AsignarTurno>
+@{
+    ViewData["Title"] = "Mostrar";
+}
+
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Nombre del Profesional</th>
+            <th> Profesion</th>
+            <th>Dia del Turno</th>
+            <th>A. turno</th> 
+            
+        </thead>
+        <tbody>
+             @foreach (var item in @Model){
+
+        <tr>
+            <td>@item.UserModelDatos.nombre</td>
+            <td>@item.UserModelDatos.apellido</td>
+            <td>@item.TurnoModelDatos.UserModelDatos.nombre</td>
+            <td>@item.TurnoModelDatos.UserModelDatos.Profesion</td>
+            <td>@item.TurnoModelDatos.aturno</td>
+           
+
+      
+        </tr>
+       
+      
+        
+    }
+        </tbody>
+    </table>
+ 

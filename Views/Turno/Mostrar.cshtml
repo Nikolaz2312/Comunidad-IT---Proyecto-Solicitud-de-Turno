@@ -1,0 +1,39 @@
+@model List<TurnoModelDatos>
+@{
+    ViewData["Title"] = "Mostrar";
+}
+
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Profesion</th>
+            <th> Dia y hora de atencion</th>
+            <th>Dia y hora de finalizacion</th>
+            <th>A. turno</th> 
+            <th>Editar</th>  
+            <th>Eliminar</th>    
+        </thead>
+        <tbody>
+             @foreach (var item in @Model){
+
+        <tr>
+            <td>@item.UserModelDatos.nombre</td>
+            <td>@item.UserModelDatos.apellido</td>
+            <td>@item.UserModelDatos.Profesion</td>
+            <td>@item.aturno</td>
+            <td>@item.fturno</td>
+            <td> @Html.ActionLink("Añadir", "AñadirT", "Turno", new  {  turnoid = @item.turnoid }, new{ role="button", @class="btn btn-warning my-2"} )</td>
+            <td>@Html.ActionLink("Editar", "Editar", "Turno", new  { turnoid = @item.turnoid }, new {target="_blank", @class="btn btn-primary my-2", role="button"})</td>
+            <td> @Html.ActionLink("Eliminar", "Eliminar", "Turno", new  {  turnoid = @item.turnoid }, new{ role="button", @class="btn btn-danger my-2"} )</td>
+
+      
+        </tr>
+       
+      
+        
+    }
+        </tbody>
+    </table>
+ 

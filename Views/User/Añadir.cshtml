@@ -1,0 +1,49 @@
+@{
+    
+    
+}
+@model User2ModelDatos
+<div class="form">
+    <form asp-action="Agregar" asp-controller="User" method="post" >
+        <div class="mb-3 mt-3"> 
+                 <!--Name-->
+            <label >Nombre: <input type="text" asp-for="nombre" class="form-control"></label>
+            <span asp-validation-for="nombre" class="badge bg-warning"></span>
+  
+        </div>
+        <div class="mb-3 mt-3"> 
+                <!--Last Name-->
+            <label >Apellido:<input type="text" asp-for="apellido" class="form-control"></label> 
+            <span asp-validation-for="apellido" class="badge bg-warning"></span>
+        </div>
+        <div class="mb-3 mt-3"> 
+                <!--DNI-->
+            <label >DNI: <input type="text" asp-for="dni" class="form-control" maxlength="8" pattern="^[0-9]+"></label>
+            <span asp-validation-for="dni" class="badge bg-warning"></span>
+  
+        </div>
+    
+        <div class="mb-3 mt-3"> 
+                <!--Fecha De Nacimiento-->
+            <label >Fecha De Nac: <input type="datetime-local" asp-for="fechadenacimiento" class="form-control" ></label>
+            <span asp-validation-for="fechadenacimiento" class="badge bg-warning"></span>
+    
+        </div>
+        <div class="mb-3 mt-3"> 
+                <!--Email-->
+            <label >Email: <input type="email" asp-for="email" class="form-control"></label> 
+            <span asp-validation-for="email" class="badge bg-warning"></span>
+  
+        </div>
+        <div class="mb-3 mt-3"> 
+                <!--Pass-->
+            <label >Contraseña: <input type="password" asp-for="password" class="form-control" ></label>
+            <span asp-validation-for="password" class="badge bg-warning"></span>
+  
+        </div>
+
+        <input class="btn btn-success" type="submit" value="Agregar" >
+    </form>
+</div>
+
+

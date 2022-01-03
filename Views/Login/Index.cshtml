@@ -1,0 +1,25 @@
+@{
+  Layout = "~/Views/Shared/_Layoutp.cshtml";  
+}
+@model TurnoProyecto.Models.ViewModel.UsuariosVM
+<div class="form">
+    <form asp-action="Login" asp-controller="Login"  id="Login">
+       
+        <div class="mb-3 mt-3"> 
+                <!--Email-->
+            <label >Email: <input type="text" asp-for="email" class="form-control"></label> 
+            <span asp-validation-for="email" class="badge bg-warning"></span>
+  
+        </div>
+        <div class="mb-3 mt-3"> 
+                <!--Pass-->
+            <label >Contraseña: <input type="password" asp-for="password" class="form-control" ></label>
+            <span asp-validation-for="password" class="badge bg-warning"></span>
+  
+        </div>
+
+        <input class="btn btn-success" type="submit" value="Iniciar Sesion" >
+    </form>
+</div>
+
+

@@ -1,0 +1,33 @@
+@model String
+@{ 
+    string fecha ;
+    if(DateTime.Now.Hour > 6 && DateTime.Now.Hour < 18 ){
+        fecha  =  DateTime.Now.Date.ToString("yyyy-MM-dd");
+    }else{
+        fecha =  DateTime.Now.Date.AddDays(1).ToString("yyyy-MM-dd");
+    }
+     
+}
+
+<h1>Crear Dia de Turno</h1>
+<div class="container p-2 my-2 bg-dark text-white">
+    <form action="Agregar" method="post">
+    <input type="hidden" name="profeid" value="@Model">
+   
+    <div class="row">
+    <div class="col-sm-3">
+        <label >Fecha inicio: <input type="datetime-local" name="finicio" class="form-control" min="@fecha" ></label>
+        
+    </div>
+    <div class="col-sm-3">
+        <label >Fecha fin: <input type="datetime-local" name="ffin" class="form-control" min="@fecha"></label>
+        
+    </div>
+    
+  </div> 
+  <input type="submit" value="Agregar">
+</form>
+ 
+</div>
+
+</div>

@@ -1,0 +1,21 @@
+@model string
+
+Quiere editar @Model
+
+<form action="Editar" method="post">
+    <input type="hidden" name="userid" value="@Model">
+    <label for="Name">Email<input type="email" name="email"></label>
+    <label for="Pass">Contraseña<input type="password" name="password"></label>
+     <!--Name-->
+        <label for="Name" class="form-label">Nombre: <input type="text" name="nombre" class="form-control"></label>
+        <!--Last Name-->
+        <label for="Ap" class="form-label">Apellido: <input type="text" name="apellido" class="form-control"></label>
+        <!--DNI-->
+                <label for="dni" class="form-label">DNI: <input type="text" name="DNI" class="form-control" min="1" max="8" pattern="^[0-9]+"></label>
+        <!--Fecha De Nacimiento-->
+                <label for="date" class="form-label">Fecha De Nac: <input type="datetime-local" name="fechadenac" class="form-control"  ></label>
+    <input type="submit" value="Editar">
+</form>
+
+
+@Html.ActionLink("Volver", "Index", "User", null)

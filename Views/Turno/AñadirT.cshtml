@@ -1,0 +1,25 @@
+@model String
+@{ 
+    
+     
+}
+
+<h1>Crear cantidad de Turno</h1>
+<div class="container p-2 my-2 bg-dark text-white">
+    <form action="AgregarT" method="post">
+    <input type="hidden" name="turnoid" value="@Model">
+   
+    <div class="row">
+    <div class="col-sm-3">
+        <label >Cantidad de Turnos: <input type="number" name="cantidad" class="form-control" ></label>
+        
+    </div>
+   
+    
+  </div> 
+  <input type="submit" value="AgregarT">
+</form>
+ 
+</div>
+
+</div>

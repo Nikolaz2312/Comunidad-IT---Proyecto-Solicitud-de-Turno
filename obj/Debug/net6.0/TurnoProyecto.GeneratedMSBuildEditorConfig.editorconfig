@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TurnoProyecto
+build_property.RootNamespace = TurnoProyecto
+build_property.ProjectDir = C:\Users\nahpi\Desktop\TurnoProyecto - copia (2)\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nahpi\Desktop\TurnoProyecto - copia (2)
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Admin/Añadir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQcOxYWRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Admin/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Admin/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Login/IndexS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXhTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Prof/Añadir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZlxBw7FhZGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Prof/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZlxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Prof/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZlxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Prof/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/Añadir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cQcOxYWRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/AñadirT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cQcOxYWRpclQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/CCDT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cQ0NEVC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/CCDTU.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cQ0NEVFUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/MiTurno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cTWlUdXJuby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Turno/Mostrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVybm9cTW9zdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/User/Añadir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBw7FhZGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/User/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/User/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r11ej6k0s4
+
+[C:/Users/nahpi/Desktop/TurnoProyecto - copia (2)/Views/Shared/_Layoutp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-61kipwju65

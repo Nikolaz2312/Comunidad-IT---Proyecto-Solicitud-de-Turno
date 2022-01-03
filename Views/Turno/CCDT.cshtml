@@ -1,0 +1,41 @@
+@model List<NumeroDeTurnoModelDatos>
+@{
+    ViewData["Title"] = "Consultar";
+}
+
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Profesion</th>
+            <th> Dia y hora de atencion</th>
+            <th>Dia y hora de finalizacion</th>
+            <th>Cantidad de turno</th> 
+            <th>Turno reservado</th>
+            <th>A. turno</th> 
+            <th>Editar</th>  
+            <th>Eliminar</th>    
+        </thead>
+        <tbody>
+             @foreach (var item in @Model){
+        <tr>
+            <td>@item.turnoModelDatos.UserModelDatos.nombre</td>
+            <td>@item.turnoModelDatos.UserModelDatos.apellido</td>
+            <td>@item.turnoModelDatos.UserModelDatos.Profesion</td>
+            <td>@item.turnoModelDatos.aturno</td>
+            <td>@item.turnoModelDatos.fturno</td>
+            <td>@item.Disponible</td>
+            <td>@item.Ocupados</td>
+            <td> @Html.ActionLink("Añadir", "AñadirT", "Turno", new  {  turnoid = @item.turnoModelDatos.turnoid , ViewBag.Mostrar.userid }, new{ role="button", @class="btn btn-danger"} )</td>
+            <td>@Html.ActionLink("Editar", "Editar", "Turno", new  { turnoid = @item.turnoModelDatos.turnoid }, new {target="_blank", @class="btn btn-primary my-2", role="button"})</td>
+            <td> @Html.ActionLink("Eliminar", "Eliminar", "Turno", new  {  turnoid = @item.turnoModelDatos.turnoid }, new{ role="button", @class="btn btn-danger"} )</td>
+
+      
+        </tr>
+       
+        
+        
+    }
+        </tbody>
+    </table>
